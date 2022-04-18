@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DB5BA66A280E146B0019E720 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5BA669280E146B0019E720 /* main.swift */; };
+		DB5BA672280E14A70019E720 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5BA671280E14A70019E720 /* Exercise.swift */; };
+		DB5BA674280E15050019E720 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5BA673280E15050019E720 /* Enums.swift */; };
+		DB5BA676280E18850019E720 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5BA675280E18850019E720 /* Constants.swift */; };
+		DB5BA679280E19CD0019E720 /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5BA678280E19CD0019E720 /* Routine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		DB5BA666280E146B0019E720 /* Solid_StepByStep */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Solid_StepByStep; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5BA669280E146B0019E720 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DB5BA671280E14A70019E720 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		DB5BA673280E15050019E720 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		DB5BA675280E18850019E720 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB5BA678280E19CD0019E720 /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,29 @@
 		DB5BA668280E146B0019E720 /* Solid_StepByStep */ = {
 			isa = PBXGroup;
 			children = (
+				DB5BA677280E196F0019E720 /* Routine */,
+				DB5BA670280E14810019E720 /* Models */,
 				DB5BA669280E146B0019E720 /* main.swift */,
 			);
 			path = Solid_StepByStep;
+			sourceTree = "<group>";
+		};
+		DB5BA670280E14810019E720 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB5BA671280E14A70019E720 /* Exercise.swift */,
+				DB5BA673280E15050019E720 /* Enums.swift */,
+				DB5BA675280E18850019E720 /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB5BA677280E196F0019E720 /* Routine */ = {
+			isa = PBXGroup;
+			children = (
+				DB5BA678280E19CD0019E720 /* Routine.swift */,
+			);
+			path = Routine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5BA679280E19CD0019E720 /* Routine.swift in Sources */,
 				DB5BA66A280E146B0019E720 /* main.swift in Sources */,
+				DB5BA674280E15050019E720 /* Enums.swift in Sources */,
+				DB5BA672280E14A70019E720 /* Exercise.swift in Sources */,
+				DB5BA676280E18850019E720 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
