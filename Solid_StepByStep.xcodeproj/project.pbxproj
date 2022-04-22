@@ -10,6 +10,9 @@
 		DB4747D22812ADD100D11F09 /* RoutineSRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4747D12812ADD100D11F09 /* RoutineSRP.swift */; };
 		DB4747D62812AF2F00D11F09 /* ExercisesTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4747D52812AF2F00D11F09 /* ExercisesTools.swift */; };
 		DB4747DA2812AFC600D11F09 /* RoutineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4747D92812AFC600D11F09 /* RoutineData.swift */; };
+		DB4747DD2812B56300D11F09 /* RoutineOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4747DC2812B56300D11F09 /* RoutineOC.swift */; };
+		DB4747DF2812BD6E00D11F09 /* ExercisesToolsOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4747DE2812BD6E00D11F09 /* ExercisesToolsOC.swift */; };
+		DB4747E12812BDF300D11F09 /* RoutineDataOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4747E02812BDF300D11F09 /* RoutineDataOC.swift */; };
 		DB5BA66A280E146B0019E720 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5BA669280E146B0019E720 /* main.swift */; };
 		DB5BA672280E14A70019E720 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5BA671280E14A70019E720 /* Exercise.swift */; };
 		DB5BA674280E15050019E720 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5BA673280E15050019E720 /* Enums.swift */; };
@@ -33,6 +36,9 @@
 		DB4747D12812ADD100D11F09 /* RoutineSRP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineSRP.swift; sourceTree = "<group>"; };
 		DB4747D52812AF2F00D11F09 /* ExercisesTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTools.swift; sourceTree = "<group>"; };
 		DB4747D92812AFC600D11F09 /* RoutineData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineData.swift; sourceTree = "<group>"; };
+		DB4747DC2812B56300D11F09 /* RoutineOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineOC.swift; sourceTree = "<group>"; };
+		DB4747DE2812BD6E00D11F09 /* ExercisesToolsOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesToolsOC.swift; sourceTree = "<group>"; };
+		DB4747E02812BDF300D11F09 /* RoutineDataOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineDataOC.swift; sourceTree = "<group>"; };
 		DB5BA666280E146B0019E720 /* Solid_StepByStep */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Solid_StepByStep; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5BA669280E146B0019E720 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DB5BA671280E14A70019E720 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
@@ -62,6 +68,16 @@
 			path = RoutineSRP;
 			sourceTree = "<group>";
 		};
+		DB4747DB2812B37E00D11F09 /* RoutineOC */ = {
+			isa = PBXGroup;
+			children = (
+				DB4747DC2812B56300D11F09 /* RoutineOC.swift */,
+				DB4747DE2812BD6E00D11F09 /* ExercisesToolsOC.swift */,
+				DB4747E02812BDF300D11F09 /* RoutineDataOC.swift */,
+			);
+			path = RoutineOC;
+			sourceTree = "<group>";
+		};
 		DB5BA65D280E146B0019E720 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +99,7 @@
 			children = (
 				DB5BA677280E196F0019E720 /* Routine */,
 				DB4747D02812AD9000D11F09 /* RoutineSRP */,
+				DB4747DB2812B37E00D11F09 /* RoutineOC */,
 				DB5BA670280E14810019E720 /* Models */,
 				DB5BA669280E146B0019E720 /* main.swift */,
 			);
@@ -166,13 +183,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5BA679280E19CD0019E720 /* Routine.swift in Sources */,
+				DB4747DF2812BD6E00D11F09 /* ExercisesToolsOC.swift in Sources */,
 				DB5BA66A280E146B0019E720 /* main.swift in Sources */,
 				DB4747D62812AF2F00D11F09 /* ExercisesTools.swift in Sources */,
 				DB5BA674280E15050019E720 /* Enums.swift in Sources */,
 				DB4747DA2812AFC600D11F09 /* RoutineData.swift in Sources */,
 				DB5BA672280E14A70019E720 /* Exercise.swift in Sources */,
+				DB4747DD2812B56300D11F09 /* RoutineOC.swift in Sources */,
 				DB4747D22812ADD100D11F09 /* RoutineSRP.swift in Sources */,
 				DB5BA676280E18850019E720 /* Constants.swift in Sources */,
+				DB4747E12812BDF300D11F09 /* RoutineDataOC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

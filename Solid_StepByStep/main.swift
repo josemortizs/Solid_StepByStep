@@ -22,6 +22,13 @@ let exercisesMock: [Exercise] = [
 
 
 // Routine + SRP
-let routine = RoutineSRP(exercises: exercisesMock)
-routine.exercisesTools.showRoutineSummary(exercises: routine.exercises)
-routine.routineData.saveRoutine(exercises: routine.exercises)
+//let routine = RoutineSRP(exercises: exercisesMock)
+//routine.exercisesTools.showRoutineSummary(exercises: routine.exercises)
+//routine.routineData.saveRoutine(exercises: routine.exercises)
+
+
+// Routine + SRP + OC
+let routineSaveData = SaveRoutineJSONData()
+let routine = RoutineOC(exercises: exercisesMock, routineSaveData: routineSaveData)
+routine.showRoutineSummary()
+routine.saveRoutine()
