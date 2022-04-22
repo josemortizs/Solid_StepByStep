@@ -15,6 +15,18 @@ final class Routine {
         self.exercises = exercises
     }
     
+    public func saveRoutine() {
+        let jsonEnconder = JSONEncoder()
+        let jsonData = try? jsonEnconder.encode(self.exercises)
+        
+        if let jsonData = jsonData {
+            let jsonString = String(decoding: jsonData, as: UTF8.self)
+            UserDefaults.standard.set(jsonString, forKey: "actualRoutine")
+            print("Rutina guardada: \n")
+            print(jsonString)
+        }
+    }
+    
     public func showRoutineSummary() {
         print("YOUR ROUTINE, GO!!!\n")
         exercises.forEach { exercise in

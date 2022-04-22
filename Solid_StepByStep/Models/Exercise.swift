@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Exercise {
+struct Exercise: Codable {
     var id: UUID
     var name: String
     var type: Int
